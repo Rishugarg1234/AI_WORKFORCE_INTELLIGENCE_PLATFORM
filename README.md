@@ -7,6 +7,7 @@
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](https://www.docker.com/)
 [![Tests](https://img.shields.io/badge/Tests-42%20Passed-brightgreen.svg)](docs/TESTING.md)
 [![Testing Docs](https://img.shields.io/badge/Docs-TESTING.md-blue.svg)](docs/TESTING.md)
+🔗 **Deployed Application:** [Click here to view the live application](https://ai-workforce-intelligence-platform.streamlit.app/)
 
 > A production-grade, modular, end-to-end Enterprise AI platform combining Machine Learning attrition prediction, engagement diagnostics, O*NET-grounded skill gap analysis, and personalized upskilling pathways.
 
@@ -340,5 +341,6 @@ Services exposed:
 ## 16. License
 
 This project is licensed under the Apache 2.0 License.
-#   A I _ W O R K F O R C E _ I N T E L L I G E N C E _ P L A T F O R M  
+#   A I _ W O R K F O R C E _ I N T E L L I G E N C E _ P L A T F O R M 
+ 
  
