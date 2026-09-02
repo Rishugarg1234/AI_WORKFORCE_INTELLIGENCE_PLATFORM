@@ -9,7 +9,13 @@ import plotly.express as px
 import plotly.graph_objects as go
 import requests
 import json
+import sys
 from pathlib import Path
+
+# Ensure project root is in sys.path for Streamlit Cloud / subfolder execution
+BASE_DIR = Path(__file__).resolve().parent.parent
+if str(BASE_DIR) not in sys.path:
+    sys.path.insert(0, str(BASE_DIR))
 
 # Setup page layout
 st.set_page_config(
