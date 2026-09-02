@@ -1,0 +1,103 @@
+================================================================
+ENTERPRISE HR AI — DASHBOARD DATA VERIFICATION REPORT
+================================================================
+Verification Timestamp: 2026-08-29 20:23:33
+Dataset Path: C:\Users\User\OneDrive\Desktop\enterprise_hr_ai\data\processed\employee_intelligence.csv
+
+--------------------------------
+TOTAL WORKFORCE
+--------------------------------
+Dataset Used: employee_intelligence.csv
+Column Used: employee_id
+Independent Calculation: 5,500 unique employees
+Dashboard Calculation: 5,500 employees
+Difference: 0
+Status: PASS
+
+--------------------------------
+HIGH FLIGHT RISK EMPLOYEES
+--------------------------------
+Dataset Used: employee_intelligence.csv
+Column Used: attrition_risk_level (Criterion: attrition_risk_level == 'High')
+Independent Calculation: 55 (1.0%)
+Dashboard Calculation: 55 (1.0%)
+Difference: 0
+Status: PASS
+
+--------------------------------
+AVERAGE ENGAGEMENT SCORE
+--------------------------------
+Dataset Used: employee_intelligence.csv
+Column Used: engagement_score
+Independent Calculation: 80.94 / 100
+Dashboard Calculation: 80.9 / 100
+Difference: 0.04
+Status: PASS
+
+--------------------------------
+AVERAGE SKILL READINESS
+--------------------------------
+Dataset Used: employee_intelligence.csv
+Column Used: readiness_score
+Independent Calculation: 68.21%
+Dashboard Calculation: 68.2%
+Difference: 0.01
+Status: PASS
+
+--------------------------------
+ATTRITION RISK DISTRIBUTION
+--------------------------------
+Dataset Used: employee_intelligence.csv
+Column Used: attrition_risk_level
+Independent Calculation: Counts={'Low': 3170, 'Medium': 2275, 'High': 55}, Pct={'Low': 57.64, 'Medium': 41.36, 'High': 1.0}
+Dashboard Calculation: Pie chart dynamically fed from value_counts()
+Difference: 0
+Status: PASS
+
+--------------------------------
+DEPARTMENTAL ATTRITION RISK PROFILE
+--------------------------------
+Dataset Used: employee_intelligence.csv
+Column Used: department, attrition_risk_level
+Independent Calculation Summary:
+attrition_risk_level  High  Low  Medium
+department                             
+Finance                 11  625     457
+HR                       8  633     446
+IT                      16  598     453
+Marketing                3  602     432
+Sales                   11  636     487
+Support                  6   76       0
+Dashboard Calculation: Stacked bar chart dynamically grouped by [department, attrition_risk_level]
+Difference: 0
+Status: PASS
+
+--------------------------------
+ORGANIZATION-WIDE SKILL GAPS
+--------------------------------
+Dataset Used: organization_skill_gaps.csv
+Column Used: missing_skill, employees_missing, severity
+Independent Calculation (Top 5 Deficiencies): [{'missing_skill': 'Excel', 'employees_missing': 430, 'severity': 'MEDIUM'}, {'missing_skill': 'Python', 'employees_missing': 323, 'severity': 'LOW'}, {'missing_skill': 'Crm', 'employees_missing': 258, 'severity': 'LOW'}, {'missing_skill': 'Sql', 'employees_missing': 239, 'severity': 'LOW'}, {'missing_skill': 'Google Analytics', 'employees_missing': 218, 'severity': 'LOW'}]
+Dashboard Calculation: Horizontal bar chart & table sorted by employees_missing desc
+Difference: 0
+Status: PASS
+
+--------------------------------
+ENGAGEMENT VS READINESS SCATTER PLOT
+--------------------------------
+Dataset Used: employee_intelligence.csv
+Column Used: engagement_score, readiness_score, attrition_risk_level
+Independent Calculation: Records=5500, Engagement Range=(-8.36, 119.16), Readiness Range=(40.0, 100.0)
+Dashboard Calculation: px.scatter(df_filtered.sample(min(400, len(df_filtered))), x='engagement_score', y='readiness_score')
+Difference: 0
+Status: PASS
+
+--------------------------------
+DASHBOARD CODE HARDCODING AUDIT
+--------------------------------
+Hardcoded KPI Check: ZERO hardcoded KPI values found in frontend/dashboard.py.
+Audit Result: ALL metrics, charts, and tables are computed dynamically from actual datasets / APIs.
+Status: PASS
+================================================================
+ALL DASHBOARD DATA VERIFICATIONS COMPLETED SUCCESSFULLY!
+================================================================

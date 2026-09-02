@@ -1,0 +1,6 @@
+Dataset,Rows,Columns,Likely Primary Key,Missing Values,Duplicates,Potential Join Key,Purpose
+employee_attrition.csv,500,24,EmployeeID,319,0,"EmployeeID, JobRole, CountryCode","Employee attrition records, demographics, and risk target"
+essential_skills.csv,18200,15,None,9100,0,"O*NET-SOC Code, Title, Element ID",O*NET essential skills baseline for occupations
+hr_performance_engagement.csv,5000,13,Employee ID,0,0,"Employee ID, Job Role","Employee performance, attendance, ratings, and engagement metrics"
+occupation_data.csv,1016,3,O*NET-SOC Code,0,0,"O*NET-SOC Code, Title","O*NET standard occupation codes, job titles, and descriptions"
+software_skills.csv,31821,7,None,0,0,"O*NET-SOC Code, Title, Element ID","Software, tools, and technical skill requirements per occupation"

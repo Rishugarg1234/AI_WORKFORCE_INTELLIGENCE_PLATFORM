@@ -1,0 +1,98 @@
+{
+    "model_name": "attrition_risk_classifier",
+    "algorithm": "Logistic Regression",
+    "model_version": "v1",
+    "evaluation_dataset": "employee_attrition_processed.csv",
+    "split_type": "Stratified Holdout Test Split (20%)",
+    "decision_threshold": 0.5,
+    "test_sample_count": 100,
+    "class_distribution": {
+        "negative_active_count": 82,
+        "positive_attrition_count": 18
+    },
+    "accuracy": 0.66,
+    "precision": 0.3095,
+    "recall": 0.7222,
+    "f1_score": 0.4333,
+    "roc_auc": 0.7981,
+    "cross_validation": {
+        "strategy": "StratifiedKFold(5, shuffle=True, random_state=99)",
+        "f1_per_fold": [
+            0.3636,
+            0.5283,
+            0.4,
+            0.5333,
+            0.5385
+        ],
+        "f1_mean": 0.4727,
+        "f1_std": 0.0752,
+        "roc_per_fold": [
+            0.6883,
+            0.7832,
+            0.7744,
+            0.8062,
+            0.8304
+        ],
+        "roc_mean": 0.7765,
+        "roc_std": 0.0482
+    },
+    "confusion_matrix": {
+        "true_negatives": 53,
+        "false_positives": 29,
+        "false_negatives": 5,
+        "true_positives": 13
+    },
+    "model_comparison": {
+        "Logistic Regression": {
+            "threshold": 0.5,
+            "accuracy": 0.66,
+            "precision": 0.3095,
+            "recall": 0.7222,
+            "f1": 0.4333,
+            "roc_auc": 0.7981
+        },
+        "Random Forest": {
+            "threshold": 0.5,
+            "accuracy": 0.68,
+            "precision": 0.2941,
+            "recall": 0.5556,
+            "f1": 0.3846,
+            "roc_auc": 0.6809
+        },
+        "XGBoost": {
+            "threshold": 0.5,
+            "accuracy": 0.71,
+            "precision": 0.2609,
+            "recall": 0.3333,
+            "f1": 0.2927,
+            "roc_auc": 0.7154
+        }
+    },
+    "classification_report": {
+        "Active (No)": {
+            "precision": 0.9137931034482759,
+            "recall": 0.6463414634146342,
+            "f1-score": 0.7571428571428571,
+            "support": 82.0
+        },
+        "Attrition (Yes)": {
+            "precision": 0.30952380952380953,
+            "recall": 0.7222222222222222,
+            "f1-score": 0.43333333333333335,
+            "support": 18.0
+        },
+        "accuracy": 0.66,
+        "macro avg": {
+            "precision": 0.6116584564860428,
+            "recall": 0.6842818428184282,
+            "f1-score": 0.5952380952380952,
+            "support": 100.0
+        },
+        "weighted avg": {
+            "precision": 0.8050246305418719,
+            "recall": 0.66,
+            "f1-score": 0.6988571428571428,
+            "support": 100.0
+        }
+    }
+}

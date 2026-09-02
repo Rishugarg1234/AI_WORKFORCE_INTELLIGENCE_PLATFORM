@@ -1,0 +1,32 @@
+dataset,check_name,status,details
+employee_attrition.csv,Schema Check,PASS,All 6 expected columns present.
+employee_attrition.csv,Duplicate Rows,PASS,No duplicate rows found.
+employee_attrition.csv,Null Percentage Check,WARNING,Columns exceeding 20.0% nulls: {'CustomerSatisfaction': 63.800000000000004}
+employee_attrition.csv,ID Uniqueness (EmployeeID),PASS,EmployeeID is 100% unique.
+employee_attrition.csv,Range Check (Age),PASS,"All values within [18, 100]."
+employee_attrition.csv,Range Check (WorkLifeBalanceScore),WARNING,"250 values outside [1.0, 5.5]."
+employee_attrition.csv,Non-negative Check (MonthlySalary),PASS,MonthlySalary has no negative values.
+employee_attrition.csv,Non-negative Check (OvertimeHoursPerMonth),PASS,OvertimeHoursPerMonth has no negative values.
+employee_attrition.csv,Non-negative Check (LeavesTaken),PASS,LeavesTaken has no negative values.
+employee_attrition.csv,Non-negative Check (YearsAtCompany),PASS,YearsAtCompany has no negative values.
+employee_attrition.csv,Attrition Category Check,PASS,"Categories valid: {'No', 'Yes'}"
+hr_performance_engagement.csv,Schema Check,PASS,All 6 expected columns present.
+hr_performance_engagement.csv,Duplicate Rows,PASS,No duplicate rows found.
+hr_performance_engagement.csv,Null Percentage Check,PASS,No columns exceed 5.0% null threshold.
+hr_performance_engagement.csv,ID Uniqueness (Employee ID),PASS,Employee ID is 100% unique.
+hr_performance_engagement.csv,Range Check (Attendance (%)),PASS,"All values within [0, 100]."
+hr_performance_engagement.csv,Range Check (Task Completion (%)),PASS,"All values within [0, 100]."
+hr_performance_engagement.csv,Non-negative Check (Performance Score),PASS,Performance Score has no negative values.
+hr_performance_engagement.csv,Non-negative Check (Work Hours Logged),PASS,Work Hours Logged has no negative values.
+hr_performance_engagement.csv,Non-negative Check (Training Hours),PASS,Training Hours has no negative values.
+occupation_data.csv,Schema Check,PASS,All 3 expected columns present.
+occupation_data.csv,Duplicate Rows,PASS,No duplicate rows found.
+occupation_data.csv,Null Percentage Check,PASS,No columns exceed 0.0% null threshold.
+occupation_data.csv,ID Uniqueness (O*NET-SOC Code),PASS,O*NET-SOC Code is 100% unique.
+essential_skills.csv,Schema Check,PASS,All 5 expected columns present.
+essential_skills.csv,Duplicate Rows,PASS,No duplicate rows found.
+essential_skills.csv,Null Percentage Check,PASS,No columns exceed 50.0% null threshold.
+essential_skills.csv,Range Check (Data Value),PASS,"All values within [0, 100]."
+software_skills.csv,Schema Check,PASS,All 3 expected columns present.
+software_skills.csv,Duplicate Rows,PASS,No duplicate rows found.
+software_skills.csv,Null Percentage Check,PASS,No columns exceed 0.0% null threshold.

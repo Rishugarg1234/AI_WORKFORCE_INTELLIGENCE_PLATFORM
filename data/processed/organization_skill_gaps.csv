@@ -1,0 +1,106 @@
+missing_skill,employees_missing,departments_affected,roles_affected,percentage_missing,severity
+Excel,430,2,4,7.82,MEDIUM
+Python,323,1,6,5.87,LOW
+Crm,258,1,2,4.69,LOW
+Sql,239,3,4,4.35,LOW
+Google Analytics,218,1,3,3.96,LOW
+Seo,195,1,3,3.55,LOW
+Power Bi,182,2,2,3.31,LOW
+Client Retention,137,1,1,2.49,LOW
+Crm (Salesforce),137,1,1,2.49,LOW
+Tax Compliance,136,1,1,2.47,LOW
+Upselling,133,1,1,2.42,LOW
+Financial Accounting,133,1,1,2.42,LOW
+Contract Negotiation,131,1,1,2.38,LOW
+B2B Sales,130,1,1,2.36,LOW
+Hris,127,1,2,2.31,LOW
+Pipeline Management,127,1,1,2.31,LOW
+Leadership,126,1,1,2.29,LOW
+Account Planning,126,1,1,2.29,LOW
+Copywriting,124,1,2,2.25,LOW
+Git,123,1,3,2.24,LOW
+Html / Css Basics,123,1,1,2.24,LOW
+Forensic Accounting,123,1,1,2.24,LOW
+Compliance,122,1,1,2.22,LOW
+Mediation,122,1,1,2.22,LOW
+Lead Generation,120,1,1,2.18,LOW
+Negotiation,120,1,1,2.18,LOW
+Technical Sourcing,120,1,1,2.18,LOW
+Internal Auditing,118,1,1,2.15,LOW
+Financial Analysis,117,1,1,2.13,LOW
+Conflict Resolution,117,1,1,2.13,LOW
+Interviewing,117,1,1,2.13,LOW
+Auditing,116,1,1,2.11,LOW
+Financial Modeling,115,1,1,2.09,LOW
+Erp Systems,115,1,1,2.09,LOW
+Employer Branding,115,1,1,2.09,LOW
+Content Optimization,114,1,1,2.07,LOW
+Quickbooks,114,1,1,2.07,LOW
+Partnership Development,114,1,1,2.07,LOW
+Employment Law,114,1,1,2.07,LOW
+Tableau,114,1,1,2.07,LOW
+Cryptography,114,1,1,2.07,LOW
+Performance Management,113,1,1,2.05,LOW
+Employee Relations,112,1,1,2.04,LOW
+Network Security,112,1,1,2.04,LOW
+Salary Negotiation,112,1,1,2.04,LOW
+Content Auditing,111,1,1,2.02,LOW
+Labor Law,110,1,1,2.0,LOW
+Talent Acquisition,110,1,1,2.0,LOW
+Strategic Pitching,110,1,1,2.0,LOW
+Penetration Testing,108,1,1,1.96,LOW
+Campaign Management,108,1,1,1.96,LOW
+Contract Closing,107,1,1,1.95,LOW
+Investigation,107,1,1,1.95,LOW
+Ats,106,1,1,1.93,LOW
+Digital Marketing,106,1,1,1.93,LOW
+On-Page Seo,106,1,1,1.93,LOW
+Risk Assessment,105,1,1,1.91,LOW
+User Research,105,1,1,1.91,LOW
+Backlink Strategy,104,1,1,1.89,LOW
+Incident Response,103,1,1,1.87,LOW
+Forecasting,102,1,1,1.85,LOW
+Siem,101,1,1,1.84,LOW
+Docker,100,1,2,1.82,LOW
+Ci/Cd,99,1,1,1.8,LOW
+Valuation,98,1,1,1.78,LOW
+Market Research,98,1,1,1.78,LOW
+Java,97,1,1,1.76,LOW
+Content Marketing,96,1,1,1.75,LOW
+Hr Policies,96,1,1,1.75,LOW
+Information Architecture,95,1,1,1.73,LOW
+Data Structures,91,1,1,1.65,LOW
+Communication,91,2,2,1.65,LOW
+Statistical Analysis,90,1,1,1.64,LOW
+Kubernetes,87,1,1,1.58,LOW
+Linux,23,2,2,0.42,LOW
+System Design,18,1,1,0.33,LOW
+Brand Storytelling,16,1,1,0.29,LOW
+Customer Support,16,1,1,0.29,LOW
+Ticketing Systems,16,1,1,0.29,LOW
+Windows Os,16,1,1,0.29,LOW
+Recruitment,16,1,1,0.29,LOW
+Keyword Research,15,1,1,0.27,LOW
+Onboarding,15,1,1,0.27,LOW
+Bash Scripting,15,1,1,0.27,LOW
+Team Leadership,14,1,1,0.25,LOW
+Customer Service,14,1,1,0.25,LOW
+Hardware Support,13,1,1,0.24,LOW
+Google Search Console,13,1,1,0.24,LOW
+Technical Seo,13,1,1,0.24,LOW
+Troubleshooting,12,1,1,0.22,LOW
+Test Automation,12,1,1,0.22,LOW
+Api Testing,11,1,1,0.2,LOW
+Active Directory,11,1,1,0.2,LOW
+Jira,10,1,1,0.18,LOW
+Rest Apis,9,1,1,0.16,LOW
+Content Strategy,9,1,1,0.16,LOW
+Ahrefs / Semrush,9,1,1,0.16,LOW
+Itil,9,1,1,0.16,LOW
+Security,8,1,1,0.15,LOW
+Unit Testing,8,1,1,0.15,LOW
+Networking,8,1,1,0.15,LOW
+Selenium,7,1,1,0.13,LOW
+Editorial Planning,6,1,1,0.11,LOW
+Hr Operations,6,1,1,0.11,LOW
+Cloud Infrastructure,5,1,1,0.09,LOW

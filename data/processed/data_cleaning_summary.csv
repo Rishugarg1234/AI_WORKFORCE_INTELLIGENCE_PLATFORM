@@ -1,0 +1,6 @@
+dataset,action,before_shape,after_shape,notes
+employee_attrition.csv,Clean & Impute,"(500, 24)","(500, 25)","Imputed CustomerSatisfaction with median (5.0), normalized strings, saved to employee_attrition_processed.csv"
+hr_performance_engagement.csv,Standardize & Clean,"(5000, 13)","(5000, 13)","Standardized column names, typed numeric fields, saved to engagement_processed.csv"
+occupation_data.csv,Clean Master,"(1016, 3)","(1016, 3)","Verified unique ONET codes, trimmed strings, saved to occupation_master.csv"
+essential_skills.csv,Clean Essential Skills,"(18200, 15)","(18200, 15)","Normalized skill names, parsed Data Value, saved to essential_skills_processed.csv"
+software_skills.csv,Clean Software Skills,"(31821, 7)","(31821, 7)","Normalized software names, standardized flags, saved to software_skills_processed.csv"

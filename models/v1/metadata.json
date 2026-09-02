@@ -1,0 +1,46 @@
+{
+    "model_name": "attrition_risk_classifier",
+    "version": "v1",
+    "algorithm": "Logistic Regression",
+    "training_date": "2026-08-29 20:22:50",
+    "dataset_name": "employee_attrition_processed.csv",
+    "target_column": "AttritionRisk",
+    "positive_class": "Yes (1)",
+    "negative_class": "No (0)",
+    "train_samples": 400,
+    "test_samples": 100,
+    "feature_count": 23,
+    "decision_threshold": 0.5,
+    "accuracy": 0.66,
+    "precision": 0.3095,
+    "recall": 0.7222,
+    "f1_score": 0.4333,
+    "roc_auc": 0.7981,
+    "cv_f1_mean": 0.4727,
+    "cv_roc_mean": 0.7765,
+    "random_state": 42,
+    "imbalance_handling": "Built-in class weights (balanced/scale_pos_weight)",
+    "model_comparison": {
+        "Logistic Regression": {
+            "accuracy": 0.66,
+            "precision": 0.3095,
+            "recall": 0.7222,
+            "f1": 0.4333,
+            "roc_auc": 0.7981
+        },
+        "Random Forest": {
+            "accuracy": 0.68,
+            "precision": 0.2941,
+            "recall": 0.5556,
+            "f1": 0.3846,
+            "roc_auc": 0.6809
+        },
+        "XGBoost": {
+            "accuracy": 0.71,
+            "precision": 0.2609,
+            "recall": 0.3333,
+            "f1": 0.2927,
+            "roc_auc": 0.7154
+        }
+    }
+}

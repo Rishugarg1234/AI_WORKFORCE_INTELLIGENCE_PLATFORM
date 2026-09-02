@@ -1,0 +1,6 @@
+department,employee_count,mean_engagement,median_engagement,mean_kpi,mean_attendance,mean_task_completion
+Finance,1016,82.56,82.68,77.39,87.55,84.94
+HR,1010,82.66,82.74,77.66,87.27,85.4
+IT,974,82.63,82.47,77.45,87.66,84.81
+Marketing,965,82.63,82.64,76.9,87.26,84.96
+Sales,1035,82.49,82.4,77.5,87.58,84.78

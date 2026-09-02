@@ -1,0 +1,130 @@
+job_role,required_skill,skill_type,criticality
+Developer,Python,Technical / Domain,Core Required
+Developer,SQL,Technical / Domain,Core Required
+Developer,Git,Technical / Domain,Core Required
+Developer,Docker,Technical / Domain,Core Required
+Developer,REST APIs,Technical / Domain,Core Required
+Developer,System Design,Technical / Domain,Core Required
+Software Engineer,Python,Technical / Domain,Core Required
+Software Engineer,Java,Technical / Domain,Core Required
+Software Engineer,Data Structures,Technical / Domain,Core Required
+Software Engineer,Docker,Technical / Domain,Core Required
+Software Engineer,Kubernetes,Technical / Domain,Core Required
+Software Engineer,CI/CD,Technical / Domain,Core Required
+Software Engineer,Git,Technical / Domain,Core Required
+Tester,Test Automation,Technical / Domain,Core Required
+Tester,Selenium,Technical / Domain,Core Required
+Tester,Unit Testing,Technical / Domain,Core Required
+Tester,JIRA,Technical / Domain,Core Required
+Tester,Python,Technical / Domain,Core Required
+Tester,API Testing,Technical / Domain,Core Required
+Engineer,Cloud Infrastructure,Technical / Domain,Core Required
+Engineer,Linux,Technical / Domain,Core Required
+Engineer,Python,Technical / Domain,Core Required
+Engineer,Networking,Technical / Domain,Core Required
+Engineer,Security,Technical / Domain,Core Required
+Engineer,Git,Technical / Domain,Core Required
+Support Engineer,Troubleshooting,Technical / Domain,Core Required
+Support Engineer,Linux,Technical / Domain,Core Required
+Support Engineer,SQL,Technical / Domain,Core Required
+Support Engineer,Customer Support,Technical / Domain,Core Required
+Support Engineer,ITIL,Technical / Domain,Core Required
+Support Engineer,Bash Scripting,Technical / Domain,Core Required
+Helpdesk,Customer Service,Technical / Domain,Core Required
+Helpdesk,Hardware Support,Technical / Domain,Core Required
+Helpdesk,Windows OS,Technical / Domain,Core Required
+Helpdesk,Ticketing Systems,Technical / Domain,Core Required
+Helpdesk,Active Directory,Technical / Domain,Core Required
+Cybersecurity Specialist,Network Security,Technical / Domain,Core Required
+Cybersecurity Specialist,Penetration Testing,Technical / Domain,Core Required
+Cybersecurity Specialist,SIEM,Technical / Domain,Core Required
+Cybersecurity Specialist,Cryptography,Technical / Domain,Core Required
+Cybersecurity Specialist,Python,Technical / Domain,Core Required
+Cybersecurity Specialist,Incident Response,Technical / Domain,Core Required
+Data Analyst,SQL,Technical / Domain,Core Required
+Data Analyst,Python,Technical / Domain,Core Required
+Data Analyst,Tableau,Technical / Domain,Core Required
+Data Analyst,Power BI,Technical / Domain,Core Required
+Data Analyst,Statistical Analysis,Technical / Domain,Core Required
+Data Analyst,Excel,Technical / Domain,Core Required
+Accountant,Financial Accounting,Technical / Domain,Core Required
+Accountant,Tax Compliance,Technical / Domain,Core Required
+Accountant,Excel,Technical / Domain,Core Required
+Accountant,QuickBooks,Technical / Domain,Core Required
+Accountant,Auditing,Technical / Domain,Core Required
+Accountant,ERP Systems,Technical / Domain,Core Required
+Auditor,Internal Auditing,Technical / Domain,Core Required
+Auditor,Risk Assessment,Technical / Domain,Core Required
+Auditor,Compliance,Technical / Domain,Core Required
+Auditor,Financial Analysis,Technical / Domain,Core Required
+Auditor,Excel,Technical / Domain,Core Required
+Auditor,Forensic Accounting,Technical / Domain,Core Required
+Financial Analyst,Financial Modeling,Technical / Domain,Core Required
+Financial Analyst,Valuation,Technical / Domain,Core Required
+Financial Analyst,Excel,Technical / Domain,Core Required
+Financial Analyst,SQL,Technical / Domain,Core Required
+Financial Analyst,Forecasting,Technical / Domain,Core Required
+Financial Analyst,Power BI,Technical / Domain,Core Required
+HR Manager,Talent Acquisition,Technical / Domain,Core Required
+HR Manager,Labor Law,Technical / Domain,Core Required
+HR Manager,Performance Management,Technical / Domain,Core Required
+HR Manager,HRIS,Technical / Domain,Core Required
+HR Manager,Employee Relations,Technical / Domain,Core Required
+HR Manager,Leadership,Technical / Domain,Core Required
+HR Executive,Recruitment,Technical / Domain,Core Required
+HR Executive,Onboarding,Technical / Domain,Core Required
+HR Executive,HR Operations,Technical / Domain,Core Required
+HR Executive,HRIS,Technical / Domain,Core Required
+HR Executive,Communication,Technical / Domain,Core Required
+Employee Relations,Conflict Resolution,Technical / Domain,Core Required
+Employee Relations,Employment Law,Technical / Domain,Core Required
+Employee Relations,Mediation,Technical / Domain,Core Required
+Employee Relations,HR Policies,Technical / Domain,Core Required
+Employee Relations,Investigation,Technical / Domain,Core Required
+Recruitment Specialist,Technical Sourcing,Technical / Domain,Core Required
+Recruitment Specialist,ATS,Technical / Domain,Core Required
+Recruitment Specialist,Interviewing,Technical / Domain,Core Required
+Recruitment Specialist,Salary Negotiation,Technical / Domain,Core Required
+Recruitment Specialist,Employer Branding,Technical / Domain,Core Required
+Sales Executive,B2B Sales,Technical / Domain,Core Required
+Sales Executive,CRM,Technical / Domain,Core Required
+Sales Executive,Negotiation,Technical / Domain,Core Required
+Sales Executive,Lead Generation,Technical / Domain,Core Required
+Sales Executive,Contract Closing,Technical / Domain,Core Required
+Sales Executive,Communication,Technical / Domain,Core Required
+Account Manager,Client Retention,Technical / Domain,Core Required
+Account Manager,Account Planning,Technical / Domain,Core Required
+Account Manager,CRM (Salesforce),Technical / Domain,Core Required
+Account Manager,Upselling,Technical / Domain,Core Required
+Account Manager,Contract Negotiation,Technical / Domain,Core Required
+Business Development,Market Research,Technical / Domain,Core Required
+Business Development,Partnership Development,Technical / Domain,Core Required
+Business Development,Pipeline Management,Technical / Domain,Core Required
+Business Development,Strategic Pitching,Technical / Domain,Core Required
+Business Development,CRM,Technical / Domain,Core Required
+Marketing Executive,Digital Marketing,Technical / Domain,Core Required
+Marketing Executive,Campaign Management,Technical / Domain,Core Required
+Marketing Executive,Google Analytics,Technical / Domain,Core Required
+Marketing Executive,Content Marketing,Technical / Domain,Core Required
+Marketing Executive,SEO,Technical / Domain,Core Required
+SEO Analyst,Keyword Research,Technical / Domain,Core Required
+SEO Analyst,Technical SEO,Technical / Domain,Core Required
+SEO Analyst,Google Search Console,Technical / Domain,Core Required
+SEO Analyst,Ahrefs / SEMrush,Technical / Domain,Core Required
+SEO Analyst,Google Analytics,Technical / Domain,Core Required
+SEO Specialist,On-Page SEO,Technical / Domain,Core Required
+SEO Specialist,Backlink Strategy,Technical / Domain,Core Required
+SEO Specialist,Content Optimization,Technical / Domain,Core Required
+SEO Specialist,Google Analytics,Technical / Domain,Core Required
+SEO Specialist,HTML / CSS Basics,Technical / Domain,Core Required
+Content Lead,Content Strategy,Technical / Domain,Core Required
+Content Lead,Editorial Planning,Technical / Domain,Core Required
+Content Lead,Copywriting,Technical / Domain,Core Required
+Content Lead,SEO,Technical / Domain,Core Required
+Content Lead,Brand Storytelling,Technical / Domain,Core Required
+Content Lead,Team Leadership,Technical / Domain,Core Required
+Content Strategist,Content Auditing,Technical / Domain,Core Required
+Content Strategist,Information Architecture,Technical / Domain,Core Required
+Content Strategist,Copywriting,Technical / Domain,Core Required
+Content Strategist,SEO,Technical / Domain,Core Required
+Content Strategist,User Research,Technical / Domain,Core Required
